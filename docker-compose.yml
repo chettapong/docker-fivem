@@ -3,6 +3,7 @@ version: '3.4'
 services:
   fivem:
     image: petchstudio/fivem
+    container_name: fivem
     environment:
       TZ: Asia/Bangkok
     stdin_open: true
